@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Audio.meta
+    - Assets/Audio/Burt's Requiem.mp3
+    - Assets/Audio/Burt's Requiem.mp3.meta
+    - Assets/Audio/ES_MM Click 53 - SFX Producer (mp3cut.net).flac
+    - Assets/Audio/ES_MM Click 53 - SFX Producer (mp3cut.net).flac.meta
+    - Assets/Audio/ES_MM Click 53 - SFX Producer.mp3
+    - Assets/Audio/ES_MM Click 53 - SFX Producer.mp3.meta
+    - Assets/Audio/Monkey-Island-Puzzler.mp3
+    - Assets/Audio/Monkey-Island-Puzzler.mp3.meta
+    - Assets/Audio/Stunted Adventure.mp3
+    - Assets/Audio/Stunted Adventure.mp3.meta
+    - Assets/Audio/blip-131856.mp3
+    - Assets/Audio/blip-131856.mp3.meta
+    - Assets/Audio/coin_c_02-102844.mp3
+    - Assets/Audio/coin_c_02-102844.mp3.meta
+    - Assets/Audio/cute-music-26476 (mp3cut.net).mp3
+    - Assets/Audio/cute-music-26476 (mp3cut.net).mp3.meta
+    - Assets/Audio/pixel-perfect-112527.mp3
+    - Assets/Audio/pixel-perfect-112527.mp3.meta
+    - Assets/Audio/popping-balloons-35643 (mp3cut.net).mp3
+    - Assets/Audio/popping-balloons-35643 (mp3cut.net).mp3.meta
+    - Assets/Audio/the-last-piano-112677.mp3
+    - Assets/Audio/the-last-piano-112677.mp3.meta
+    - Assets/Font.meta
+    - Assets/Font/Giulia.ttf
+    - Assets/Font/Giulia.ttf.meta
+    - Assets/Material.meta
+    - Assets/Material/BackGroundLevel.mat
+    - Assets/Material/BackGroundLevel.mat.meta
+    - Assets/Material/glass.mat
+    - Assets/Material/glass.mat.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Level.meta
+    - Assets/Prefabs/Level/Hole.prefab
+    - Assets/Prefabs/Level/Hole.prefab.meta
+    - Assets/Prefabs/Level/Plate.prefab
+    - Assets/Prefabs/Level/Plate.prefab.meta
+    - Assets/Prefabs/Level/Rock.prefab
+    - Assets/Prefabs/Level/Rock.prefab.meta
+    - Assets/Prefabs/Level/Stem.prefab
+    - Assets/Prefabs/Level/Stem.prefab.meta
+    - Assets/Prefabs/Util.meta
+    - Assets/Prefabs/Util/Camera.prefab
+    - Assets/Prefabs/Util/Camera.prefab.meta
+    - Assets/Prefabs/Util/Canvas 1.prefab
+    - Assets/Prefabs/Util/Canvas 1.prefab.meta
+    - Assets/Prefabs/Util/Canvas.prefab
+    - Assets/Prefabs/Util/Canvas.prefab.meta
+    - Assets/Prefabs/Util/CloudLevel.prefab
+    - Assets/Prefabs/Util/CloudLevel.prefab.meta
+    - Assets/Prefabs/Util/CloudMenu.prefab
+    - Assets/Prefabs/Util/CloudMenu.prefab.meta
+    - Assets/Prefabs/Util/Life.prefab
+    - Assets/Prefabs/Util/Life.prefab.meta
+    - Assets/Prefabs/Util/OnePoint.prefab
+    - Assets/Prefabs/Util/OnePoint.prefab.meta
+    - Assets/Prefabs/Util/TenPoints.prefab
+    - Assets/Prefabs/Util/TenPoints.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/GameOver.unity
+    - Assets/Scenes/GameOver.unity.meta
+    - Assets/Scenes/Logo.unity
+    - Assets/Scenes/Logo.unity.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/MainMenu.unity.meta
+    - Assets/Scenes/Stage.unity
+    - Assets/Scenes/Stage.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/BackgroundController.cs
+    - Assets/Scripts/BackgroundController.cs.meta
+    - Assets/Scripts/ButtonController.cs
+    - Assets/Scripts/ButtonController.cs.meta
+    - Assets/Scripts/CloudSpawnController.cs
+    - Assets/Scripts/CloudSpawnController.cs.meta
+    - Assets/Scripts/GiuliaController.cs
+    - Assets/Scripts/GiuliaController.cs.meta
+    - Assets/Scripts/InformationController.cs
+    - Assets/Scripts/InformationController.cs.meta
+    - Assets/Scripts/IntroController.cs
+    - Assets/Scripts/IntroController.cs.meta
+    - Assets/Scripts/ItensTranslationController.cs
+    - Assets/Scripts/ItensTranslationController.cs.meta
+    - Assets/Scripts/ObjectSpawnController.cs
+    - Assets/Scripts/ObjectSpawnController.cs.meta
+    - Assets/Scripts/ObstacleSpawnController.cs
+    - Assets/Scripts/ObstacleSpawnController.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/GameOver.meta
+    - Assets/Sprites/GameOver/GameOver.anim
+    - Assets/Sprites/GameOver/GameOver.anim.meta
+    - Assets/Sprites/GameOver/GameOver.png
+    - Assets/Sprites/GameOver/GameOver.png.meta
+    - Assets/Sprites/GameOver/GameOverText.png
+    - Assets/Sprites/GameOver/GameOverText.png.meta
+    - Assets/Sprites/GameOver/GameOver_0.controller
+    - Assets/Sprites/GameOver/GameOver_0.controller.meta
+    - Assets/Sprites/Level1.meta
+    - Assets/Sprites/Level1/BG.controller
+    - Assets/Sprites/Level1/BG.controller.meta
+    - Assets/Sprites/Level1/BG.png
+    - Assets/Sprites/Level1/BG.png.meta
+    - Assets/Sprites/Level1/Glass.png
+    - Assets/Sprites/Level1/Glass.png.meta
+    - Assets/Sprites/Level1/Hole.png
+    - Assets/Sprites/Level1/Hole.png.meta
+    - Assets/Sprites/Level1/Plate.png
+    - Assets/Sprites/Level1/Plate.png.meta
+    - Assets/Sprites/Level1/Rock.png
+    - Assets/Sprites/Level1/Rock.png.meta
+    - Assets/Sprites/Level1/Rock2.png
+    - Assets/Sprites/Level1/Rock2.png.meta
+    - Assets/Sprites/Level1/Stem.png
+    - Assets/Sprites/Level1/Stem.png.meta
+    - Assets/Sprites/MainMenu.meta
+    - Assets/Sprites/MainMenu/Canvas.prefab
+    - Assets/Sprites/MainMenu/Canvas.prefab.meta
+    - Assets/Sprites/MainMenu/CircleImage.png
+    - Assets/Sprites/MainMenu/CircleImage.png.meta
+    - Assets/Sprites/MainMenu/GiuliaMainMenu.anim
+    - Assets/Sprites/MainMenu/GiuliaMainMenu.anim.meta
+    - Assets/Sprites/MainMenu/GiuliaMainMenu.png
+    - Assets/Sprites/MainMenu/GiuliaMainMenu.png.meta
+    - Assets/Sprites/MainMenu/MainMenuBackgorund.controller
+    - Assets/Sprites/MainMenu/MainMenuBackgorund.controller.meta
+    - Assets/Sprites/MainMenu/MainMenuBackgorund.png
+    - Assets/Sprites/MainMenu/MainMenuBackgorund.png.meta
+    - Assets/Sprites/MainMenu/logo.png
+    - Assets/Sprites/MainMenu/logo.png.meta
+    - Assets/Sprites/Player.meta
+    - Assets/Sprites/Player/Falling.anim
+    - Assets/Sprites/Player/Falling.anim.meta
+    - Assets/Sprites/Player/Giulia.png
+    - Assets/Sprites/Player/Giulia.png.meta
+    - Assets/Sprites/Player/Giulia.prefab
+    - Assets/Sprites/Player/Giulia.prefab.meta
+    - Assets/Sprites/Player/GiuliaAnimation.controller
+    - Assets/Sprites/Player/GiuliaAnimation.controller.meta
+    - Assets/Sprites/Player/Giulia_0.controller
+    - Assets/Sprites/Player/Giulia_0.controller.meta
+    - Assets/Sprites/Player/Giulia_13.controller
+    - Assets/Sprites/Player/Giulia_13.controller.meta
+    - Assets/Sprites/Player/Giulia_23.controller
+    - Assets/Sprites/Player/Giulia_23.controller.meta
+    - Assets/Sprites/Player/Giulia_28.controller
+    - Assets/Sprites/Player/Giulia_28.controller.meta
+    - Assets/Sprites/Player/Giulia_29.controller
+    - Assets/Sprites/Player/Giulia_29.controller.meta
+    - Assets/Sprites/Player/Jumping.anim
+    - Assets/Sprites/Player/Jumping.anim.meta
+    - Assets/Sprites/Player/Rolling.anim
+    - Assets/Sprites/Player/Rolling.anim.meta
+    - Assets/Sprites/Player/Running.anim
+    - Assets/Sprites/Player/Running.anim.meta
+    - Assets/Sprites/Util.meta
+    - Assets/Sprites/Util/Backgound.prefab
+    - Assets/Sprites/Util/Backgound.prefab.meta
+    - Assets/Sprites/Util/Ballon.anim
+    - Assets/Sprites/Util/Ballon.anim.meta
+    - Assets/Sprites/Util/Ballon.png
+    - Assets/Sprites/Util/Ballon.png.meta
+    - Assets/Sprites/Util/BallonAnimator.controller
+    - Assets/Sprites/Util/BallonAnimator.controller.meta
+    - Assets/Sprites/Util/BallonAnimator2.controller
+    - Assets/Sprites/Util/BallonAnimator2.controller.meta
+    - Assets/Sprites/Util/BertoldoGames.png
+    - Assets/Sprites/Util/BertoldoGames.png.meta
+    - Assets/Sprites/Util/Botton2.png
+    - Assets/Sprites/Util/Botton2.png.meta
+    - Assets/Sprites/Util/Button.png
+    - Assets/Sprites/Util/Button.png.meta
+    - Assets/Sprites/Util/Cloud.png
+    - Assets/Sprites/Util/Cloud.png.meta
+    - Assets/Sprites/Util/Cloud2.png
+    - Assets/Sprites/Util/Cloud2.png.meta
+    - Assets/Sprites/Util/Cloud3.png
+    - Assets/Sprites/Util/Cloud3.png.meta
+    - Assets/Sprites/Util/Coin.png
+    - Assets/Sprites/Util/Coin.png.meta
+    - Assets/Sprites/Util/Snack.png
+    - Assets/Sprites/Util/Snack.png.meta
+    - Assets/Sprites/Util/WilliamBertoldoGameDesign.png
+    - Assets/Sprites/Util/WilliamBertoldoGameDesign.png.meta
+    - Assets/Sprites/Util/explodingBalloon.anim
+    - Assets/Sprites/Util/explodingBalloon.anim.meta
+    - Packages/manifest.json
+    - Packages/manifest.json.private.0
+    - Packages/packages-lock.json
+    - Packages/packages-lock.json.private.0
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
